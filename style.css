@@ -1,0 +1,96 @@
+h1{
+    font-family: 'Skranji', cursive;
+    font-size: 55px;
+    background-color: #F1EFEF;}
+
+    h1{
+    border: 5px solid #82A0D8;
+    border-radius: 10%;
+    padding: 15px;
+    display: inline;}
+
+.carrera{
+    color:#6499E9 ;
+    }
+
+.main{
+    text-align: center;
+    margin-top:3%;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    
+}
+
+
+h2{color: #053B50;
+    margin-left: 40%;
+    font-family: 'Skranji', cursive;
+}
+
+.card-text{
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    font-weight:600 ;
+    margin-left: 40%;
+
+}
+
+.left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  .card{
+    width: 45%;
+    margin-top: 10%;
+}
+
+.footer{
+    font-family: 'Skranji', cursive;
+    font-size: 55px;
+    background-color: #F1EFEF;
+clear: both;
+text-align: center;
+margin-top: 35%;}
+
+@media (max-width:680px){
+    .main{
+margin-top: 10%;        
+    }
+
+    img{
+        display: block;
+        width: 400px;
+        height: 300px;
+        margin-top: 50%;
+    }
+
+.card{width:60%;
+    display: block;
+    text-align: center;
+   
+}
+.card-text{
+    width:200px;
+    
+}
+
+.left{
+    float: none;
+}
+.right{
+    float: none;
+}
+
+h2{
+   margin-left: 60%;
+}
+}
+
+
